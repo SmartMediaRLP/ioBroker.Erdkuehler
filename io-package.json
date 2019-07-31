@@ -1,0 +1,45 @@
+{
+    "common": {
+        "name": "bierlift",
+        "version": "0.1.0",
+        "title": "Bierlift",
+        "desc": {
+            "en": "Integration of your Bierlift in ioBroker",
+            "de": "Integration Ihrer Bierlift in ioBroker",
+            "ru": "Интеграция ваших Bierlift в ioBroker",
+            "pt": "A integração de suas Bierlift em ioBroker",
+            "nl": "Integratie van uw Bierlift in ioBroker",
+            "fr": "L'intégration de votre Bierlift dans ioBroker",
+            "it": "L'integrazione di Bierlift in ioBroker",
+            "es": "La integración de su Bierlift en ioBroker",
+            "pl": "Integracja swoich Bierlift w ioBroker",
+            "zh-cn": "融入你的Bierlift在ioBroker"
+        },
+        "news": {},
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "mode": "daemon",
+        "icon": "bierlift.jpg",
+        "extIcon": "https://raw.githubusercontent.com/SmartMediaRLP/ioBroker.Bierlift/master/admin/bierlift.jpg",
+        "keywords": [
+            "beer",
+            "bier",
+            "lift"
+        ],
+        "readme": "https://github.com/SmartMediaRLP/ioBroker.Bierlift/blob/master/README.md",
+        "loglevel": "info",
+        "materialize": true,
+        "compact": true,
+        "enabled": true,
+        "type": "multimedia",
+        "authors": [
+            {
+                "name": "Zefau",
+                "email": "zefau@mailbox.org"
+            }
+        ]
+    },
+    "native": {},
+    "objects": [],
+    "instanceObjects": []
+}

@@ -1,0 +1,43 @@
+{
+  "name": "iobroker.bierlift",
+  "version": "0.1.0",
+  "description": "Integration of your Bierlift into ioBroker",
+  "main": "bierlift.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm run test:package && npm run test:unit",
+    "test:integration": "mocha test/integration --exit",
+    "test:package": "mocha test/package --exit",
+    "test:unit": "mocha test/unit --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SmartMediaRLP/ioBroker.Bierlift.git"
+  },
+  "keywords": [
+    "beer",
+    "bier",
+    "lift"
+  ],
+  "author": {
+    "name": "zefau",
+    "email": "zefau@mailbox.org"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SmartMediaRLP/ioBroker.Bierlift/issues"
+  },
+  "homepage": "https://github.com/SmartMediaRLP/ioBroker.Bierlift#readme",
+  "dependencies": {
+    "@iobroker/adapter-core": "^1.0.3",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@iobroker/testing": "^1.2.5",
+    "axios": "^0.19.0",
+    "gulp": "^4.0.2"
+  }
+}
