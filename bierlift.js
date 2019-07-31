@@ -55,7 +55,10 @@ function startAdapter(options)
 		if (!state.ack)
 		{
 			let action = id.substr(id.lastIndexOf('.')+1);
-			_request('http://' + adapter.config.ip + ':' + (adapter.config.port || '88') + '/action?Dir=' + (action == 'move_up' ? 'High' : 'Low') + '&Delay=' + (adapter.config.delay || 325) + '&Steps=' + (adapter.config.steps || 70000), function (error, response, body)
+			let url = 'http://' + adapter.config.ip.replace('http://', '') + ':' + (adapter.config.port || '88') + '/action?Dir=' + (action == 'move_up' ? 'High' : 'Low') + '&Delay=' + (adapter.config.delay || 325) + '&Steps=' + (adapter.config.steps || 70000);
+			
+			adapter.log.debug('Request URL for action ' + action + ': ' + url);
+			_request(url, function (error, response, body)
 			{
 				adapter.log.debug('Successfully applied ' + action + '.');
 			});
