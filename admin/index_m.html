@@ -1,0 +1,86 @@
+<html>
+<head>
+	<!-- these 4 files always have to be included -->
+	<link rel="stylesheet" type="text/css" href="../../lib/css/materialize.css">
+	<link rel="stylesheet" type="text/css" href="../../css/adapter.css"/>
+
+	<script type="text/javascript" src="../../lib/js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="../../socket.io/socket.io.js"></script>
+
+	<!-- these files always have to be included -->
+	<script type="text/javascript" src="../../js/translate.js"></script>
+	<script type="text/javascript" src="../../lib/js/materialize.js"></script>
+	<script type="text/javascript" src="../../js/adapter-settings.js"></script>
+	
+	<script type="text/javascript" src="words.js"></script>
+	<script type="text/javascript">
+	<!--
+	// load
+	function load(settings, onChange)
+	{
+		_load(settings, onChange);
+	}
+	
+	// save
+	function save(callback)
+	{
+		_save(callback);
+	}
+	
+	// page loaded
+	$(window).on('load', function()
+	{
+	});
+	// -->
+	</script>
+	<script type="text/javascript" src="admin.js"></script>
+	<link rel="stylesheet" type="text/css" href="admin.css"/>
+	
+</head>
+<body>
+
+
+<div class="m adapter-container" id="settings">
+	
+	<div class="row">
+		
+		<!-- CONFIG -->
+		<div id="config" class="col s12">
+			
+			<div class="row">
+				<div class="col s12 m12">
+					<div class="row" style="margin-bottom: 0">
+						<div class="col s12 m12">
+							<p class="translate title">auth</p>
+						</div>
+					</div>
+					<div class="row box">
+						<div class="input-field col s3 m3">
+							<input class="value" id="ip" type="text" />
+							<label for="ip" class="translate">ip</label>
+						</div>
+						<div class="input-field col s1 m1">
+							<input class="value" id="port" type="number" placeholder="88" />
+							<label for="port" class="translate">port</label>
+						</div>
+						<div class="input-field col s4 m4">
+							<input class="value" id="delay" type="text" placeholder="325" />
+							<label for="delay" class="translate">delay</label>
+						</div>
+						<div class="input-field col s4 m4">
+							<input class="value" id="steps" type="text" placeholder="70.000" />
+							<label for="steps" class="translate">steps</label>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+		
+	</div>
+
+</div>
+
+</body>
+</html>
