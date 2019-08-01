@@ -39,8 +39,8 @@ function startAdapter(options)
 		}
 		
 		// create buttons & subscribe
-		library.set({node: 'move_up', role: 'button', type: 'boolean', description: 'Move Bierlift up'});
-		library.set({node: 'move_down', role: 'button', type: 'boolean', description: 'Move Bierlift down'});
+		library.set({node: 'move_up', role: 'button', type: 'boolean', description: 'Move Drinklift up'});
+		library.set({node: 'move_down', role: 'button', type: 'boolean', description: 'Move Drinklift down'});
 		adapter.subscribeStates('move_*');
 	});
 
