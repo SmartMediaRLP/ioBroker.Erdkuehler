@@ -1,6 +1,6 @@
-![Logo](admin/bierlift.jpg)
+![Logo](admin/drinklift.jpg)
 # ioBroker.bierlift
-Integration of your Bierlift in ioBroker
+Integration of your Drinklift in ioBroker
 
 ![Number of Installations](http://iobroker.live/badges/bierlift-installed.svg)
 ![Stable version](http://iobroker.live/badges/bierlift-stable.svg)
