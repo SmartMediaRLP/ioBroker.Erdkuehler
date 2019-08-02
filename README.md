@@ -1,15 +1,15 @@
-![Logo](admin/drinklift.jpg)
-# ioBroker.bierlift
-Integration of your Drinklift in ioBroker
+![Logo](admin/erdkuehler.jpg)
+# ioBroker.erdkuehler
+Integration of your Erdkuehler in ioBroker
 
-![Number of Installations](http://iobroker.live/badges/bierlift-installed.svg)
-![Stable version](http://iobroker.live/badges/bierlift-stable.svg)
-[![NPM version](http://img.shields.io/npm/v/iobroker.bierlift.svg)](https://www.npmjs.com/package/iobroker.bierlift)
-[![Travis CI](https://travis-ci.org/Zefau/ioBroker.bierlift.svg?branch=master)](https://travis-ci.org/Zefau/ioBroker.bierlift)
-[![Downloads](https://img.shields.io/npm/dm/iobroker.bierlift.svg)](https://www.npmjs.com/package/iobroker.bierlift)
-[![Greenkeeper badge](https://badges.greenkeeper.io/Zefau/ioBroker.bierlift.svg)](https://greenkeeper.io/)
+![Number of Installations](http://iobroker.live/badges/erdkuehler-installed.svg)
+![Stable version](http://iobroker.live/badges/erdkuehler-stable.svg)
+[![NPM version](http://img.shields.io/npm/v/iobroker.erdkuehler.svg)](https://www.npmjs.com/package/iobroker.erdkuehler)
+[![Travis CI](https://travis-ci.org/Zefau/ioBroker.erdkuehler.svg?branch=master)](https://travis-ci.org/Zefau/ioBroker.erdkuehler)
+[![Downloads](https://img.shields.io/npm/dm/iobroker.erdkuehler.svg)](https://www.npmjs.com/package/iobroker.erdkuehler)
+[![Greenkeeper badge](https://badges.greenkeeper.io/Zefau/ioBroker.erdkuehler.svg)](https://greenkeeper.io/)
 
-[![NPM](https://nodei.co/npm/iobroker.bierlift.png?downloads=true)](https://nodei.co/npm/iobroker.bierlift/) 
+[![NPM](https://nodei.co/npm/iobroker.erdkuehler.png?downloads=true)](https://nodei.co/npm/iobroker.erdkuehler/) 
 
 
 ## License

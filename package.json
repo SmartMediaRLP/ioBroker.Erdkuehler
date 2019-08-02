@@ -1,8 +1,8 @@
 {
-  "name": "iobroker.bierlift",
+  "name": "iobroker.erdkuehler",
   "version": "0.1.0",
-  "description": "Integration of your Bierlift into ioBroker",
-  "main": "bierlift.js",
+  "description": "Integration of your Erdkuehler into ioBroker",
+  "main": "erdkuehler.js",
   "directories": {
     "lib": "lib",
     "test": "test"
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SmartMediaRLP/ioBroker.Bierlift.git"
+    "url": "git+https://github.com/SmartMediaRLP/ioBroker.Erdkuehler.git"
   },
   "keywords": [
     "beer",
@@ -28,9 +28,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SmartMediaRLP/ioBroker.Bierlift/issues"
+    "url": "https://github.com/SmartMediaRLP/ioBroker.Erdkuehler/issues"
   },
-  "homepage": "https://github.com/SmartMediaRLP/ioBroker.Bierlift#readme",
+  "homepage": "https://github.com/SmartMediaRLP/ioBroker.Erdkuehler#readme",
   "dependencies": {
     "@iobroker/adapter-core": "^1.0.3",
     "request": "^2.88.0"
